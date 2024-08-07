@@ -1,0 +1,8 @@
+#header{
+    background: url('../assets/BackGround.png');
+    height: 420px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
