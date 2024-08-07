@@ -35,12 +35,15 @@ function Header() {
           </button>
         </div>
 
-        <ul className="hidden md:flex flex-row">
-          <li className="mr-10 text-lg">Investor Relations</li>
-          <li className="mr-10 text-lg">Add restaurant</li>
-          <li className="mr-10 text-lg">Log in</li>
-          <li className="mr-10 text-lg">Sign up</li>
-        </ul>
+        
+
+<ul className="max-md:hidden flex ">
+  <li className="mr-10 text-lg">Investor Relations</li>
+  <li className="mr-10 text-lg">Add restaurant</li>
+  <li className="mr-10 text-lg">Log in</li>
+  <li className="mr-10 text-lg">Sign up</li>
+</ul>
+
       </div>
 
       {isOpen && (
