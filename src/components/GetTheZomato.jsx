@@ -24,6 +24,7 @@ function GetTheZomato() {
               type="radio"
               name="contact"
               id="email"
+              readOnly
             />
             <label htmlFor="email" className="text-base md:text-lg">
               Email
