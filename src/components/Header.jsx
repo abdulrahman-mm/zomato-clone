@@ -9,7 +9,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div id="header" className="text-white bg-black">
+    <div id="header" className="text-white bg-black ">
       <div className="flex justify-between items-center pt-7 px-4 md:px-10">
         <p className="flex items-center">
         <svg
@@ -65,13 +65,13 @@ function Header() {
       )}
 
       <div className='flex flex-col items-center mt-8 px-4'>
-        <p className="text-7xl font-extrabold text-center">zomato</p>
+        <p className="text-5xl md:text-7xl font-extrabold text-center">zomato</p>
 
-        <p className="text-4xl mt-4 text-center">
+        <p className="text-xl md:text-4xl mt-4 text-center">
           Discover the best food & drinks in Chennai
         </p>
 
-        <div className="bg-white rounded-md px-4 py-4 flex flex-col md:flex-row items-center mt-10 w-full max-w-4xl">
+        <div className="bg-white rounded-md px-4 py-4 flex flex-col md:flex-row items-center mt-10 w-full max-w-4xl ">
           <div className="flex flex-col md:flex-row w-full">
             <div className="flex items-center mb-4 md:mb-0 md:mr-3 w-full md:w-auto">
               <img src={location} alt="" className="w-6 h-6" />
